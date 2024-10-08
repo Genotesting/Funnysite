@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Testing</title>
+    <style>
+        /* Light Mode Styles */
+        body {
+            background-color: white;
+            color: rgb(0, 0, 0);
+            transition: background-color 0.5s, color 0.5s;
+        }
+
+        /* Dark Mode Styles */
+        body.dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+
+        /* Ultra Dark Mode Styles */
+        body.ultra-dark-mode {
+            background-color: #000000; /* The blackest color possible */
+            color: #ff0000; /* Lightest text */
+        }
+
+        /* Ultra Light Mode Styles */
+        body.ultra-light-mode {
+            background-color: #ffffff; /* The lightest background */
+            color: #000000; /* Darkest text */
+        }
+
+        button {
+            padding: 10px 15px;
+            margin: 10px 0;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        /* Settings Menu Styles */
+        #settings-menu {
+            display: none; /* Hide by default */
+            position: absolute;
+            top: 50px; /* Adjust the position */
+            right: 20px; /* Adjust the position */
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            z-index: 10;
+        }
+
+        .dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 5px 5px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .dot:hover {
+            transform: scale(1.2);
+        }
+
+        .theme-name {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <button id="theme-toggle">Switch to Dark Mode</button>
+    <div id="settings-menu">
+        <h4>Select a Theme:</h4>
+        <div id="theme-options">
+            <div class="theme-name">Light Mode</div>
+            <div class="dot" data-theme="light-mode" style="background-color: rgb(209, 209, 209);"></div>
+
+            <div class="theme-name">Dark Mode</div>
+            <div class="dot" data-theme="dark-mode" style="background-color: #323232;"></div>
+
+            <div class="theme-name">Ultra Dark Mode</div>
+            <div class="dot" data-theme="ultra-dark-mode" style="background-color: rgb(0, 0, 0);"></div>
+
+            <div class="theme-name">Ultra Light Mode</div>
+            <div class="dot" data-theme="ultra-light-mode" style="background-color: #FFFFFF;"></div>
+        </div>
+    </div>
+    
+    <h1>Testing</h1>
+    <h3>Playground</h3>             
+
+    Welcome! I've hid some <b><u>secrets</u></b> in here, challenge yourself to find them all!
+    <h4>What classifies as a secret? A secret is counted if you can only find it with the hints found on the site. Or you can also cheat, but there is no fun in that.. The secrets may hide behind certain images, or are just disguised as a bulletpoint.</h4> <i>The amount of secrets right now is <b><u>4</u></b></i>
+            <h6>Pst! some secrets require f12 or Developer Tools to be found!!! If you find something that shouldn't be normal, just pop open the good old f12 and look for the "#secret" tag.</h6>
+    <p>
+        There once was a water bottle named Wally, who wasn’t like other water bottles. You see, Wally had 
+        <b>diabetes</b>. While most bottles worried about getting dropped or lost, Wally had to keep track of his 
+        blood sugar levels. It wasn’t easy, but Wally was determined to live a full and adventurous life.
+    </p>
+
+    <p>
+        The cactus, an iconic symbol of <strong><a href="https://en.wikipedia.org/wiki/Resilience">resilience</a></strong>, thrives in some of the harshest environments on Earth. These remarkable plants, belonging to the family <strong><a href="https://en.wikipedia.org/wiki/Cactaceae">Cactaceae</a></strong>, are primarily found in <strong><a href="https://en.wikipedia.org/wiki/Desert">arid regions</a></strong>, where they have adapted to survive with minimal water. The journey of a cactus begins with a seed, often no larger than a grain of sand.             
+        Upon the onset of rain, the dormant seed absorbs moisture, expanding rapidly. This process, known as <em><a href="https://en.wikipedia.org/wiki/Germination">germination</a></em>, triggers the seed to break through the soil's surface. The young cactus, characterized by its fleshy stem and spines, emerges in its quest for survival. The spines serve a dual purpose: they provide defense against herbivores and reduce water loss by breaking up airflow around the plant.
+        The initial growth phase of a cactus is crucial. In its infancy, the cactus develops a root system that sprawls wide to maximize water absorption from the sparse desert rains. This adaptation is essential, as the plant may go for long periods without water. As it matures, the cactus thickens its skin, developing a waxy coating that minimizes moisture loss—a vital adaptation to life in <strong>extreme heat</strong>.
+        As seasons change, cacti display remarkable resilience to temperature fluctuations. During scorching summer days, they may close their <strong><a href="https://en.wikipedia.org/wiki/Tomato">stomata</a></strong>—tiny openings on their surface—to conserve water. Conversely, during cooler nights, they open their stomata to capture <strong><a href="https://en.wikipedia.org/wiki/Carbon_dioxide">carbon dioxide</a></strong> for <strong><a href="https://en.wikipedia.org/wiki/Photosynthesis">photosynthesis</a></strong>. This unique ability allows them to thrive in environments where other plants cannot survive.
+        The reproductive cycle of a cactus is equally fascinating. Many species produce stunning <strong><a href="https://en.wikipedia.org/wiki/Flower">flowers</a></strong> that bloom for a short period, often timed with specific pollinators such as bees, birds, and bats. The pollination process is critical, as it enables the cactus to produce seeds for future generations. Once pollinated, these seeds can lie dormant until conditions are favorable for germination, continuing the cycle of life in the harsh desert.
+        Over time, a mature cactus can grow to impressive heights, some reaching over <strong>40 feet</strong>. These giants play an essential role in their ecosystems, providing habitats for various wildlife and serving as a water source for animals during dry spells. The resilience and adaptability of cacti not only enable them to survive but also allow them to thrive in environments that challenge most forms of life.
+        In conclusion, the growth of a cactus is a testament to nature's ingenuity. Through a series of remarkable adaptations, these plants have evolved to endure the rigors of their environment, thriving against the odds. The story of the cactus is one of <strong>resilience</strong>, survival, and the intricate balance of life in the <strong><a href="https://en.wikipedia.org/wiki/Desert">arid desert landscape</a></strong>.
+        <br><img src="237-200x300.jpg" alt="Picture of a dog! But however.. Not for you! >:) #secret" border="3">
+    </p>
+
+    Lorem ipsum dolor sit amet, 
+        consectetur adipiscing elit, <br> 
+        <b>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, </b><br>
+        <i>quis nostrud exercitation 
+        ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+        <u>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</u><br>
+        <em>Excepteur sint occaecat cupidatat non proident, 
+        in culpa qui officia deserunt mollit anim id est laborum.</em><br>
+
+        <hr>The housefly (Musca domestica) is a fly of the suborder Cyclorrhapha.
+        It possibly originated in the Middle East, and spread around the world as a commensal of humans.
+        It is the most common <b>jarfly</b><!--hey #secret--> species found in houses.
+        Adults are gray to black, with four dark,
+        longitudinal lines on the thorax, slightly hairy bodies,
+        and a single pair of membranous wings.
+        They have red eyes, set farther apart in the slightly larger female.
+        <a href="https://www.youtube.com/watch?v=BMfvjbEZwhE" target="_blank"><b>Press here for more information</a></b>
+
+    <ul>
+        <li>apples
+            <ul>
+                <li>golden delicious</li>       
+                <li>granny smith</li>
+                <li>gala</li>
+            </ul>
+        </li>
+        <li>oranges</li>
+        <li>16</li>
+        <li>Saturn</li>
+        <li><NoSecretHere class="jpg"></NoSecretHere></li>      <!--howdidyoufindme? #Youcheateddidn'tyou?-->
+    </ul>
+
+    <table border="5"cellpadding="10" cellspacing="1">
+        <tr>
+            <th>15</th>
+            <th>Welcome</th>
+            <th>Paper Mario</th>
+            <th>Pencil sharpener</th>
+            <th>No</th>
+            <th>Entertainment</th>
+        </tr>
+        <tr>
+            <td>Backspace</td>
+            <td>$1500</td>
+            <td>45 degrees Fahrenheit</td>
+            <td>Tennis</td>
+            <td>.pdf</td>
+            <td>Dinnertable</td>
+        </tr>
+    </table>
+
+    <script>
+        const toggleButton = document.getElementById('theme-toggle');
+        const settingsMenu = document.getElementById('settings-menu');
+        const dots = document.querySelectorAll('.dot');
+        let clickCount = 0;
+
+        toggleButton.addEventListener('click', function() {
+            clickCount++;
+            if (clickCount === 25) {
+                settingsMenu.style.display = 'block'; // Show the settings menu after 25 clicks
+            }
+
+            if (document.body.classList.contains('ultra-light-mode')) {
+                document.body.classList.remove('ultra-light-mode');
+                document.body.classList.add('dark-mode');
+                toggleButton.textContent = 'Switch to Light Mode';
+            } else if (document.body.classList.contains('ultra-dark-mode')) {
+                document.body.classList.remove('ultra-dark-mode');
+                document.body.classList.add('light-mode');
+                toggleButton.textContent = 'Switch to Dark Mode';
+            } else if (document.body.classList.contains('dark-mode')) {
+                document.body.classList.remove('dark-mode');
+                document.body.classList.add('ultra-dark-mode');
+                toggleButton.textContent = 'Hey, whats up? #secret';
+            } else {
+                document.body.classList.add('dark-mode');
+                toggleButton.textContent = 'Switch to Ultra-Dark Mode';
+            }
+        });
+
+        // Dots to select a theme
+        dots.forEach(dot => {
+            dot.addEventListener('click', () => {
+                const selectedTheme = dot.getAttribute('data-theme');
+
+                // Remove all theme classes
+                document.body.classList.remove('light-mode', 'dark-mode', 'ultra-dark-mode', 'ultra-light-mode');
+
+                // Add the selected theme class
+                document.body.classList.add(selectedTheme);
+
+                // Reset click count since themes can now be selected instantly
+                clickCount = 0;
+
+                // Update button text based on the selected theme
+                switch (selectedTheme) {
+                    case 'light-mode':
+                        toggleButton.textContent = 'Switch to Dark Mode';
+                        break;
+                    case 'dark-mode':
+                        toggleButton.textContent = 'Switch to Ultra-Dark Mode';
+                        break;
+                    case 'ultra-dark-mode':
+                        toggleButton.textContent = 'Switch to Ultra-Light Mode';
+                        break;
+                    case 'ultra-light-mode':
+                        toggleButton.textContent = 'Switch to Dark Mode';
+                        break;
+                }
+
+                // Change settings menu background based on selected theme
+                if (selectedTheme === 'light-mode') {
+                    settingsMenu.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
+                    settingsMenu.style.color = 'black';
+                } else if (selectedTheme === 'dark-mode') {
+                    settingsMenu.style.backgroundColor = 'rgba(18, 18, 18, 0.8)';
+                    settingsMenu.style.color = 'white';
+                } else if (selectedTheme === 'ultra-dark-mode') {
+                    settingsMenu.style.backgroundColor = 'rgba(0, 0, 0, 0.9)';
+                    settingsMenu.style.color = 'white';
+                } else if (selectedTheme === 'ultra-light-mode') {
+                    settingsMenu.style.backgroundColor = 'rgba(255, 255, 255, 1)';
+                    settingsMenu.style.color = 'black';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
