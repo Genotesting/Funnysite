@@ -1,0 +1,1 @@
+Hi, I'm Geno. You probably don't know me, but it can change with this. With this site I'm just sharpening a new found interest in HTML5. No disclaimer, I'm not a company, I'm a human just writing this myself.
